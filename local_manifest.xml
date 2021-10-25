@@ -33,6 +33,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex-ext" />
-  <project path="external/jemalloc_new" name="android_external_jemalloc-new" groups="pdk" remote="aex-ext" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" groups="pdk" revision="12" remote="aex-ext" />
  
 </manifest>

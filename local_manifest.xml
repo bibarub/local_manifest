@@ -7,7 +7,7 @@
          revision="refs/heads/12.x" />
 
  <!-- Trees -->
- <project path="kernel/xiaomi/onclite" name="LineageOS/android_kernel_xiaomi_onclite.git" remote="aex-ext" revision="lineage-18.1" />
+ <project path="kernel/xiaomi/onclite" name="android_kernel_xiaomi_onclite" remote="aex-ext" revision="lineage-18.1" />
  <project path="device/xiaomi/onclite" name="bibarub/device_xiaomi_onclite.git" remote="github" revision="12.x" />
  <project path="vendor/xiaomi/onclite" name="bibarub/vendor_xiaomi_onclite.git" remote="github" revision="twelve" />
  

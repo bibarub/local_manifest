@@ -16,8 +16,7 @@
  <remove-project name="platform_build" />
  <remove-project name="platform_bionic" /> -->
  <remove-project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" />
- <!--
- <remove-project name="platform_packages_apps_Launcher3" /> -->
+ <remove-project name="platform_packages_apps_Launcher3" />
  <remove-project name="platform_hardware_qcom_wlan" />
  <!-- 
  <remove-project name="platform/external/jemalloc_new" /> -->
@@ -35,8 +34,8 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project> -->
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex-ext" />
-  <project path="external/jemalloc_new" name="android_external_jemalloc-new" groups="pdk" revision="12" remote="aex-ext" /> -->
+  <!--  <project path="external/jemalloc_new" name="android_external_jemalloc-new" groups="pdk" revision="12" remote="aex-ext" /> -->
  
 </manifest>

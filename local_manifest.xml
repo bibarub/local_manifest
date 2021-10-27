@@ -14,8 +14,8 @@
  <!-- nuke stuff -->
  <!--
  <remove-project name="platform_build" />
- <remove-project name="platform_bionic" /> -->
- <remove-project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" />
+ <remove-project name="platform_bionic" />
+ <remove-project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" /> -->
  <remove-project name="platform_packages_apps_Launcher3" />
  <remove-project name="platform_hardware_qcom_wlan" />
  <!-- 
@@ -23,7 +23,7 @@
 
  <!-- bring stuff back -->
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aex-ext" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex-ext" revision="12.x-legacy-um" />
+  <!-- <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex-ext" revision="12.x-legacy-um" /> -->
   <!--
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aex-ext" />
   <project path="build/make" name="platform_build" groups="pdk" remote="aex-ext" >
